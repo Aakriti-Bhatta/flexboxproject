@@ -4,7 +4,7 @@
     padding: 0;
 }
 header{
-    margin: 10px 100px 0px 100px;
+    margin: 10px 200px 10px 200px;
     
 
     display: flex;
@@ -26,4 +26,42 @@ header{
 .btn:hover{
     opacity: 0.5;
     cursor: pointer;
+}
+.hero{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 200px 10px 200px;
+      
+}
+.hero-left{
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    
+}
+
+
+.hero h1{
+    font-size: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+.content{
+    width: 70%;
+    font-size:22px ;
+    line-height: 30px;
+    color: #83869A;
+}
+#btn2{
+    background-image: linear-gradient(#FE6A50, #f43b8f);
+}
+.hero-image{
+    width:500px;
+    height: auto;
+    
 }
