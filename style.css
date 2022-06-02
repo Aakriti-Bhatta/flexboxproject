@@ -5,7 +5,7 @@
 }
 
 header{
-    margin: 10px 200px 10px 200px;
+    margin: 12px 200px 10px 200px;
     
 
     display: flex;
@@ -58,7 +58,7 @@ header{
     line-height: 30px;
     color: #83869A;
 }
-#btn2{
+#btn3{
     background-image: linear-gradient(#FE6A50, #f43b8f);
 }
 .hero-image{
@@ -145,4 +145,18 @@ header{
 .box2 a:hover{
     cursor: pointer;
     opacity: 0.5;
+}
+footer{
+    height: 150px;
+    background-color: #13183F;
+    
+    padding: 0px 200px;
+    
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#btn3{
+    background-image: linear-gradient(#8d42db, #da2fb1);
 }
