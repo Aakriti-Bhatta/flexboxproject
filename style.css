@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 header{
     margin: 10px 200px 10px 200px;
     
@@ -52,8 +53,8 @@ header{
     font-weight: bolder;
 }
 .content{
-    width: 70%;
-    font-size:22px ;
+    width: 400px;
+    font-size:20px ;
     line-height: 30px;
     color: #83869A;
 }
@@ -62,6 +63,86 @@ header{
 }
 .hero-image{
     width:500px;
-    height: auto;
+    height: auto; 
+}
+.article{
+    margin:10px 200px 10px 200px;
+    display: flex;
+    justify-content: space-between;
     
+    flex-wrap: wrap;
+}
+
+#box1{
+    height: 250px;
+    width: 320px;
+    padding: 16px 30px;
+    background-image: linear-gradient(#FE6A50, #f43b8f);
+    box-sizing: border-box;
+    border: 1px solid #fdfffc ;
+    border-radius: 10px;
+    box-shadow: none !important;
+
+}
+#box1 h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffff;
+    font-size: 34px;
+    padding-top: 10%;
+}
+
+.box2{
+    /* position: relative; */
+    height: 250px;
+    width: 320px;
+    padding: 16px 30px;
+    /* padding-left: 10px; */
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: #fdfffc;
+    box-sizing: border-box;
+    border: 1px solid #fdfffc ;
+    border-radius: 10px;
+    box-shadow: 8px 6px 10px  #83869A;
+}
+
+.icon{
+    /* position: absolute; */
+    /* top: -20px; */
+    /* top: -40px; */
+    /* position: relative; */
+    /* bottom: -auto; */
+    /* left: 10px; */
+    width:50px;
+    height: auto;
+    margin-top: -40px;
+}
+.box2 h3{
+    
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: #13183F; 
+    
+}
+.box2 p{
+    
+    color: #83869A;
+    font-size: 20px;
+    line-height: 30px;
+}
+.box2 a{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f43b8f;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.box2 a:hover{
+    cursor: pointer;
+    opacity: 0.5;
 }
